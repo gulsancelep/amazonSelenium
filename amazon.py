@@ -28,13 +28,13 @@ time.sleep(2)
 
 time.sleep(2)
 
-browser.find_element_by_id("ap_email").send_keys("gulsan.celep@useinsider.com")
+browser.find_element_by_id("ap_email").send_keys("")
 
 time.sleep(2)
 browser.find_element_by_id("continue").click()
 
 time.sleep(5)
-browser.find_element_by_id("ap_password").send_keys("wsxzaq1")
+browser.find_element_by_id("ap_password").send_keys("")
 
 time.sleep(5)
 browser.find_element_by_id("signInSubmit").click()
